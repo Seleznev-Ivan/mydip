@@ -1,0 +1,13 @@
+replicaCount: 2
+application:
+  name: diplom-nginx
+  containerPort: 80
+  namespace: default
+image:
+  repository: vanchester/diplom-nginx
+  tag: latest
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30001
+  targetPort: 80
