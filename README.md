@@ -68,6 +68,8 @@
 
 ![diplom-004](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-004.jpg)
 
+Моя конфигурация [Terraform](https://github.com/Seleznev-Ivan/mydip/tree/main/terraform/)
+
 ---
 ### Создание Kubernetes кластера
 
@@ -156,9 +158,9 @@
 
 ![diplom-015](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-015.jpg)
 
-Git репозиторий с тестовым приложением и Dockerfile: https://github.com/Seleznev-Ivan/netology-app/
+Git репозиторий с тестовым приложением и [Dockerfile](https://github.com/Seleznev-Ivan/netology-app/)
 
-Регистри с собранным docker image на DockerHub: https://hub.docker.com/repository/docker/vanchester/diplom-nginx/
+Регистри с собранным docker image на [DockerHub](https://hub.docker.com/repository/docker/vanchester/diplom-nginx/)
 
 ---
 ### Подготовка cистемы мониторинга и деплой приложения
@@ -207,6 +209,8 @@ Git репозиторий с тестовым приложением и Dockerf
 Проверяю http-доступ к моему приложению в браузере:
 
 ![diplom-021](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-021.jpg)
+
+Конфигурация [приложения](https://github.com/Seleznev-Ivan/mydip/tree/main/netology-app/)
 
 ---
 ### Установка и настройка CI/CD
