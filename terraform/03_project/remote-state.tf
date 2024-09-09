@@ -15,8 +15,6 @@ data "terraform_remote_state" "vpc" {
     key                         = "state/terraform.tfstate"
     skip_region_validation      = true
     skip_credentials_validation = true
-    access_key                  = "YCA***"
-    secret_key                  = "YCN***"
   }
 }
 
