@@ -212,6 +212,22 @@ Git репозиторий с тестовым приложением и [Docker
 
 Конфигурация [приложения](https://github.com/Seleznev-Ivan/mydip/tree/main/netology-app/)
 
+Для отслеживания изменений инфраструктуры настроил CI/CD конфигурации Terraform в Gitlab:
+
+![diplom-035](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-035.jpg)
+
+![diplom-036](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-036.jpg)
+
+![diplom-037](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-037.jpg)
+
+![diplom-038](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-038.jpg)
+
+![diplom-039](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-039.jpg)
+
+![diplom-040](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-040.jpg)
+
+![diplom-041](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-041.jpg)
+
 ---
 ### Установка и настройка CI/CD
 
