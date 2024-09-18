@@ -226,6 +226,8 @@ Git репозиторий с тестовым приложением и [Docker
 
 ![diplom-040](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-040.jpg)
 
+ACCESS_KEY и SECRET_KEY вынес в переменные:
+
 ![diplom-041](https://github.com/Seleznev-Ivan/devops-netology/blob/main/img/diplom-041.jpg)
 
 ---
