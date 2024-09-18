@@ -2,19 +2,22 @@ terraform {
   required_providers {
     yandex = {
       source = "yandex-cloud/yandex"
+	  version = "> 0.13"
     }
   }
-}
 
-data "terraform_remote_state" "vpc" {
-  backend = "s3"
-  config = {
-    endpoint                    = "https://storage.yandexcloud.net"
-    bucket                      = "seleznev-netology-bucket"
-    region                      = "ru-central1"
-    key                         = "state/terraform.tfstate"
+  backend "s3" {
+    endpoints = {
+      s3 = "https://storage.yandexcloud.net"
+    }
+    bucket = "diplom-bucket-s3"
+    region = "ru-central1"
+    key    = "state/terraform.tfstate"
+
     skip_region_validation      = true
     skip_credentials_validation = true
+    skip_requesting_account_id  = true 
+    skip_s3_checksum            = true
+    skip_metadata_api_check     = true
   }
 }
-
